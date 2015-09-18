@@ -1,0 +1,26 @@
+{
+  "name": "humanize",
+  "version": "1.0.0",
+  "description": "humanize is a number formatter",
+  "main": "lib/filter.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valetudox/humanize.git"
+  },
+  "author": "Viktor Somodi <viktor.somodi@emarsys.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valetudox/humanize/issues"
+  },
+  "homepage": "https://github.com/Valetudox/humanize",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  }
+}
