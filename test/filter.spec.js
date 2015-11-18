@@ -54,7 +54,9 @@ describe('Humanize', function() {
 
   it('should work with number which are higher than zero but smaller than one', function() {
     this.expect(humanize(0.5)).to.eql('0.5');
+    this.expect(humanize(0.5111)).to.eql('0.5');
     this.expect(humanize(-0.2)).to.eql('-0.2');
+    this.expect(humanize(-0.22222)).to.eql('-0.2');
   });
 
 
