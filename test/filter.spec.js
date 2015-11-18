@@ -52,6 +52,12 @@ describe('Humanize', function() {
   });
 
 
+  it('should work with number which are higher than zero but smaller than one', function() {
+    this.expect(humanize(0.5)).to.eql('0.5');
+    this.expect(humanize(-0.2)).to.eql('-0.2');
+  });
+
+
   it('should use the given precision', function() {
     this.expect(humanize(49990000, 2)).to.eql('49.99M');
   });
