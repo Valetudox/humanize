@@ -1,6 +1,6 @@
 {
   "name": "humanize-num",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "humanize is a number formatter",
   "main": "lib/filter.js",
   "directories": {
