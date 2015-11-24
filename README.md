@@ -5,7 +5,7 @@
 Installation
 ===========
 
-`npm install --save humanize`
+`npm install --save humanize-num`
 
 Usage
 =====
