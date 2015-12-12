@@ -20,18 +20,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Valetudox/humanize.git"
+    "url": "git+https://github.com/emartech/humanize.git"
   },
   "author": "Viktor Somodi <viktor.somodi@emarsys.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Valetudox/humanize/issues"
+    "url": "https://github.com/emartech/humanize/issues"
   },
   "pre-commit": [
     "test",
     "validate-commit-msg"
   ],
-  "homepage": "https://github.com/Valetudox/humanize",
+  "homepage": "https://github.com/emartech/humanize",
   "devDependencies": {
     "babel-cli": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
