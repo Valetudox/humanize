@@ -15,3 +15,4 @@ var humanize = require('humanize-num');
 humanize(120000); //120k
 humanize(49990000, 2); //49.99M
 ```
+
