@@ -28,8 +28,8 @@
     "url": "https://github.com/Valetudox/humanize/issues"
   },
   "pre-commit": [
-    "validate-commit-msg",
-    "test"
+    "test",
+    "validate-commit-msg"
   ],
   "homepage": "https://github.com/Valetudox/humanize",
   "devDependencies": {
