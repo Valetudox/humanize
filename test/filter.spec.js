@@ -1,6 +1,11 @@
 'use strict';
 
+var chai = require('chai');
 let humanize = require('../lib/filter');
+
+beforeEach(function() {
+  this.expect = chai.expect;
+});
 
 describe('Humanize', function() {
 
