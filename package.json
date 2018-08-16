@@ -23,7 +23,7 @@
     "url": "git+https://github.com/emartech/humanize.git"
   },
   "author": "Viktor Somodi <viktor.somodi@emarsys.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/emartech/humanize/issues"
   },
